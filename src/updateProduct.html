@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Atualizar dados de um produto existente</title>
+
+    <link href="./styles.css" rel="stylesheet" />
+    
+  </head>
+
+  <body>
+      <div id="root">
+        <h1> Atualizar um produto </h1>
+        <div>
+					<label> 
+						Insira o descrição do produto:
+						<input name="productDescription" type="text" id="productDescription" />
+					</label> 
+        </div> 
+        
+        <label> 
+            Insira o id do produto:
+            <input name="productId" type="text" id="productId" />
+        </label>
+
+        <div> <button onclick='updateProduct()'>Click me</button> </div>
+
+        <div class="container"></div>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
